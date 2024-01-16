@@ -324,7 +324,7 @@ body {
 .banner {
   position: relative;
   margin-bottom: 20px;
-  min-height: 450px;
+  min-height: 550px;
 }
 
 .bannerInfograph {
@@ -385,7 +385,7 @@ body {
 
 .banner img {
   width: 100%;
-  min-height: 450px;
+  min-height: 550px;
 }
 
 .fifth > .btn {
@@ -515,6 +515,10 @@ footer p {
   gap: 10px;
 }
 
+.socials i {
+  font-size: 20px;
+}
+
 hr {
   border-color: rgba(19, 19, 24, 0.1);
   width: 100%;
@@ -605,5 +609,11 @@ hr {
 
   footer {
     padding: 25px 10%;
+  }
+
+  .overlap {
+    font-size: 16px;
+    line-height: 18px;
+    top: 35%;
   }
 }

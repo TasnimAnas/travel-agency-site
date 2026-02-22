@@ -1847,11 +1847,19 @@
         </li>
       </ul>
       <hr />
-      2024, All Rights Reserved
+      <p>
+      <span class="copyright"></span> All Rights Reserved</p>
     </footer>
     <script
       src="https://kit.fontawesome.com/6a1a5176c9.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const copyright = document.querySelector(".copyright");
+      window.addEventListener("load", () => {
+        const currentYear = new Date().getFullYear();
+        copyright.textContent = currentYear;
+      });
+    </script>
   </body>
 </html>
